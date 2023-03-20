@@ -37,7 +37,7 @@ const ForgotPassword = () => {
 				/>
 			</div>
 			<div className="w-full md:w-[67%] lg:w-[40%] lg:ml-20">
-				<form >
+				<form onSubmit={onSubmit} >
 					<input className="w-full mb-6 px-4 py-2 text-xl text-gray-700 bg-white border-gray-300 rounded transition ease-in-out" type="email" id="email" value={email} onChange={onChange} placeHolder="Email Address"/>
 					<div className="flex justify-between whitespace-nowrap text-sm sm:text-lg">
 						<p className="mb-6">

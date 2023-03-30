@@ -1,7 +1,11 @@
-const Home = () => {
-  return (
-    <div>Home</div>
-  )
-}
 
-export default Home
+import Slider from "../components/Slider";
+
+export default function Home() {
+
+  return (
+    <div>
+      <Slider />
+    </div>
+  );
+}
